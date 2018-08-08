@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{91A6317C-D619-4FFF-AB94-83EFBBE652EA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PBA.OnFDAL</RootNamespace>
+    <AssemblyName>PBA.OnFDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>OnfDAL</SccProjectName>
+    <SccLocalPath>4~bfe3b010-298e-4940-a9f5-a48652d23f74</SccLocalPath>
+    <SccAuxPath>http://vault.onfulfillment.com/VaultService</SccAuxPath>
+    <SccProvider>SourceGear Vault Visual Studio 2005 Client:{7BE9CE03-56BF-4682-9C06-78C68B134B30}</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddressData.cs" />
+    <Compile Include="CarrierData.cs" />
+    <Compile Include="CreditCardReportData.cs" />
+    <Compile Include="DAL.cs" />
+    <Compile Include="Exceptions.cs" />
+    <Compile Include="FreightReportData.cs" />
+    <Compile Include="GenericPODReportData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Global.cs" />
+    <Compile Include="InventorySnapshotData.cs" />
+    <Compile Include="InventoryTransactionData.cs" />
+    <Compile Include="ItemData.cs" />
+    <Compile Include="JuniperCostReportData.cs" />
+    <Compile Include="JuniperPartReportData.cs" />
+    <Compile Include="JuniperPODReportData.cs" />
+    <Compile Include="OrderDetailReportData.cs" />
+    <Compile Include="OrderShippingDetailData.cs" />
+    <Compile Include="OrderSummaryReportData.cs" />
+    <Compile Include="PersonData.cs" />
+    <Compile Include="PersonStampImageData.cs" />
+    <Compile Include="PersonStampTextData.cs" />
+    <Compile Include="StampFieldDefinitionData.cs" />
+    <Compile Include="StoreData.cs" />
+    <Compile Include="SynderoReconciliationData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OnFInfo\OnFInfo.csproj">
+      <Project>{E13A2FF7-7AEC-4E5A-A37D-16903D9C613C}</Project>
+      <Name>OnFInfo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

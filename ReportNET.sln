@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OnFNET", "OnFNET\", "{06EC9809-928E-450E-ADB5-A2F83FF2EE92}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "OnFNET"
+		SccAuxPath = "http://vault.onfulfillment.com/VaultService"
+		SccLocalPath = "4~bfe3b010-298e-4940-a9f5-a48652d23f74"
+		SccProvider = "SourceGear Vault Visual Studio 2005 Client:{7BE9CE03-56BF-4682-9C06-78C68B134B30}"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{7FCB338E-D0DD-486D-A621-50146535ADDE}|PBA.OnfDAL.dll;{99684CE7-3D30-4B78-AA25-1A4A6CD64372}|PBA.OnfInfo.dll;{18D46293-1D3E-494B-950B-F1810F04BBA5}|PBA.OnfBLL.dll;{3CABAE1B-A4A0-441B-B706-B7509100EF19}|PBA.OnfList.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/OnfNet"
+		Debug.AspNetCompiler.PhysicalPath = "OnfNet\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\OnfNet\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/OnfNet"
+		Release.AspNetCompiler.PhysicalPath = "OnfNet\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\OnfNet\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59777"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnfBLL", "OnfBLL\OnfBLL.csproj", "{0C506015-3CCB-4532-8414-CB0219B4DADD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnfDAL", "OnfDAL\OnfDAL.csproj", "{91A6317C-D619-4FFF-AB94-83EFBBE652EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnfInfo", "OnfInfo\OnfInfo.csproj", "{E13A2FF7-7AEC-4E5A-A37D-16903D9C613C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnfList", "OnfList\OnfList.csproj", "{C79B66F2-8199-4B74-B301-9EC9ABB8A361}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06EC9809-928E-450E-ADB5-A2F83FF2EE92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EC9809-928E-450E-ADB5-A2F83FF2EE92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EC9809-928E-450E-ADB5-A2F83FF2EE92}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EC9809-928E-450E-ADB5-A2F83FF2EE92}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{0C506015-3CCB-4532-8414-CB0219B4DADD}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{0C506015-3CCB-4532-8414-CB0219B4DADD}.Release|Any CPU.ActiveCfg = Release|x86
+		{91A6317C-D619-4FFF-AB94-83EFBBE652EA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{91A6317C-D619-4FFF-AB94-83EFBBE652EA}.Release|Any CPU.ActiveCfg = Release|x86
+		{E13A2FF7-7AEC-4E5A-A37D-16903D9C613C}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E13A2FF7-7AEC-4E5A-A37D-16903D9C613C}.Release|Any CPU.ActiveCfg = Release|x86
+		{C79B66F2-8199-4B74-B301-9EC9ABB8A361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C79B66F2-8199-4B74-B301-9EC9ABB8A361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C79B66F2-8199-4B74-B301-9EC9ABB8A361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C79B66F2-8199-4B74-B301-9EC9ABB8A361}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3E2ADEF-304B-4C87-BE31-35747F25EF24}
+	EndGlobalSection
+EndGlobal

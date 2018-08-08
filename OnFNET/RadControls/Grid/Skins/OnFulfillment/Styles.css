@@ -1,0 +1,161 @@
+/* r.a.d.grid OnFulfillment skin */
+
+.RadGrid_OnFulfillment
+{
+	background: #6699CC;
+	border: solid 1px #c7cbb6;
+	font: normal 10px Arial, Verdana, Sans-serif;
+	text-align: left;
+}
+
+.RadGrid_OnFulfillment th,
+.RadGrid_OnFulfillment th a
+{ 
+	font: bold 10px Verdana;
+	color:#fff;
+}
+
+.RadGrid_OnFulfillment td
+{ 
+	font: 10px Verdana;
+	color: #000;
+}
+
+.RadGrid_OnFulfillment td a
+{ 
+	font: 10px Verdana;
+	color:Blue;
+}
+
+.MasterTable_OnFulfillment
+{
+	border: 0px !important;
+	/*-moz-user-select: none;*/ /*disables text selecting in Firefox to combat unpleasant visual appearance*/
+}
+
+th.GridHeader_OnFulfillment
+{
+	color:#fff;
+	height: 34px;
+	background: #6699CC;
+	padding: 0px 2px;
+}
+.GridHeader_OnFulfillment a
+{
+	color:#fff;
+}
+
+.GridRow_OnFulfillment,
+.GridAltRow_OnFulfillment,
+.SelectedRow_OnFulfillment,
+.ActiveRow_OnFulfillment,
+.GridEditRow_OnFulfillment
+{
+	height:20px;
+}
+
+.GridRow_OnFulfillment td,
+.GridAltRow_OnFulfillment td,
+.SelectedRow_OnFulfillment td,
+.ActiveRow_OnFulfillment td,
+.GridEditRow_OnFulfillment td
+{
+	border-bottom:1px solid #c7cbb6;
+	padding: 0px 2px;
+}
+
+.GridRow_OnFulfillment
+{
+	background-color: #f7f6eb;
+}
+
+.GridAltRow_OnFulfillment
+{
+	background-color: #e5e7d8;
+}
+
+.SelectedRow_OnFulfillment
+{
+	background-color: #fff;
+}
+
+.ActiveRow_OnFulfillment
+{
+	background-color: #c9cfb7;
+}
+
+.GridEditRow_OnFulfillment
+{
+	background-color: #ffffce;
+}
+
+.GridEditRow_OnFulfillment input
+{
+	font-size: 11px;
+}
+
+.GridPager_OnFulfillment
+{
+	background: #c9cfb7;
+	height: 17px;
+}
+.GridPager_OnFulfillment td
+{
+	border-top: 1px solid #c7cbb6;
+	padding-left: 11px;
+}
+.GridPager_OnFulfillment a
+{
+	color: #333;	
+}
+
+.GridHeader_OnFulfillment,
+.GroupPanelItems_OnFulfillment
+{
+	vertical-align: middle;
+}
+
+/* grouping button */
+.GroupPanelItems_OnFulfillment,
+.GridCommandRow_OnFulfillment
+{
+	background: #809e72;
+	color: white !important;
+	border: solid 1px #d2d5c6;
+	white-space:  nowrap;
+	font-size: 11px;
+}
+
+tr.GroupHeader_OnFulfillment
+{
+	background: #c9cfb7;
+	font-weight: bold;
+	height:20px;
+	border-bottom:1px solid #c7cbb6;
+}
+
+.GroupPanel_OnFulfillment
+{
+	height: 30px;
+	width: 100%;
+	background: #667e5b;
+	border-bottom: 1px solid #c7cbb6;
+	border-collapse: collapse;
+	color: white;
+}
+
+.GroupPanel_OnFulfillment td
+{
+	color: white;
+	padding-left: 4px;
+}
+
+.GridCommandRow_OnFulfillment
+{
+    border-style:none none solid;
+}
+.GridCommandRow_OnFulfillment td,
+.GridCommandRow_OnFulfillment a
+{
+    color: #fff !important;
+}

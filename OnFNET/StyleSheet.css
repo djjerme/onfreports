@@ -1,0 +1,237 @@
+﻿body 
+{
+	font-family:Verdana;
+	font-size:11px;
+}
+.headline
+{
+	font-size:16px;
+	font-weight:bold;	
+}
+
+.label
+{
+	font-weight:bold;
+}
+
+.commandButton
+{
+	font-family:"verdana";
+	font-size:10px;
+}
+.Normal
+{
+	font-family:"verdana";
+	font-size:10px;
+}
+.tableNormal
+{
+	font-family:Verdana;
+	font-size:10px;
+	background-color:White;
+	vertical-align:top;
+}
+.tableBold
+{
+	font-family:Verdana;
+	font-size:10px;
+	background-color:White;
+	font-weight:bold;
+}
+.tableAlternate
+{
+	font-family:Verdana;
+	font-size:10px;
+	background-color:#E9EDF6;
+	vertical-align:top;
+}
+.labelNoWrap
+{
+	font-family:Verdana;
+	font-size:10px;
+	white-space:nowrap;
+}
+.labelNoWrapBold
+{
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:10px;
+	white-space:nowrap;
+}
+.tableButton
+{
+	font-family:Verdana;
+	font-size:10px;
+	white-space:nowrap;
+}
+.tableButtonRed
+{
+	font-family:Verdana;
+	font-size:10px;
+	white-space:nowrap;
+	color:Red;
+}
+.tableButtonBold
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	white-space:nowrap;
+}
+.tableRedBold
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	color:Red;
+}
+.tableHeader
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+}
+.tableHeaderSilver
+{
+	font-family:Verdana;
+	font-size:10px;
+	font-weight:bold;
+	background-color:Silver;
+}
+.tableIndent
+{
+	text-indent:10pt;
+}
+.tableError
+{
+	color:Red;
+}
+.tableNormalError
+{
+	font-family:Verdana;
+	font-size:10px;
+	vertical-align:top;
+	background-color:White;
+	color:Red;
+}
+.tableAlternateError
+{
+	font-family:Verdana;
+	font-size:10px;
+	vertical-align:top;
+	background-color:#DFECFF;
+	color:Red;
+}
+.tableItalics
+{
+	color:Gray;
+}
+.tableFlashing
+{
+	color:Red;
+}
+.calendarSpecialDay
+{
+	color:Red;
+}
+.calendarSpecialDay
+{
+	color:Black;
+}
+.menuNormal
+{
+	font-family:Verdana;
+	font-size:10px;
+	background-color:Silver;
+}
+.menuHover
+{
+	font-family:Verdana;
+	font-size:10px;
+	background-color:Gray;
+}
+.divMenu
+{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:100%;
+	z-index:10;
+}
+
+.divBackground
+{
+	width:100%;
+	z-index:1;
+}
+.divBand
+{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:100%;
+	z-index:4;
+}
+.divIndent0
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:auto;
+	z-index:5;
+}
+
+.divIndent1
+{
+	position:absolute;
+	left:20px;
+	top:0px;
+	width:auto;
+	z-index:5;
+}
+.divIndent2
+{
+	position:absolute;
+	left:165px;
+	top:0px;
+	width:auto;
+	z-index:5;
+}
+.divIndent3
+{
+	position:absolute;
+	left:240px;
+	top:0px;
+	width:auto;
+	z-index:0;
+}
+.divMenuBar
+{
+	position:relative;
+	left:240px;
+	top:0px;
+	width:auto;
+	z-index:1000;
+}
+#header
+{
+	position: relative;
+	background:inherit;
+	z-index:2;
+	border-width:0px;
+	margin:0px;
+	padding:0px 0px 0px 0px;
+	background-color:#E9EDF6;
+}
+/* */
+
+#main
+{
+	position: relative;
+	background:inherit;
+	width:inherit;
+	z-index:1;
+	border-width:0px;
+	padding:0px 0px 0px 0px;
+	background-color:#E9EDF6;
+}
